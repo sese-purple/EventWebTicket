@@ -18,7 +18,7 @@ import AdminDashboard from './pages/admin/Dashboard';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/EventWebTicket">
       <AuthProvider>
         <Routes>
           {/* Public Routes */}
